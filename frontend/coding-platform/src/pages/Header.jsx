@@ -17,7 +17,7 @@ const Header = () => {
             <ul className="flex space-x-8">
               <li>
                 <NavLink
-                  to="/coding"
+                  to="http://localhost:3001/dsa"
                   className={({ isActive }) =>
                     `text-sm font-medium transition duration-300 ${
                       isActive
@@ -59,7 +59,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to="http://172.16.13.42:3001"
+                  to="http://localhost:3001/resupload"
                   className={({ isActive }) =>
                     `text-sm font-medium transition duration-300 ${
                       isActive
