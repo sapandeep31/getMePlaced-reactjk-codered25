@@ -9,10 +9,6 @@ const CodeEditor = ({ initialCode, language, problemSlug }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const handleEditorChange = (value) => {
-    setCode(value);
-  };
-
   const handleRunCode = async () => {
     setIsLoading(true);
     setError(null);
